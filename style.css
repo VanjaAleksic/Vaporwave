@@ -1,0 +1,51 @@
+body {
+font-family: 'Tomorrow', sans-serif;
+background: #6b4080;
+color: white;
+}
+.navbar-brand
+{
+  color:white;
+  font-size: 25px;
+  height: 40px;
+}
+
+.nav-link
+{
+  font-family: 'Tomorrow', sans-serif;
+  color:grey;
+  font-size: 25px;
+  margin: 0px;
+}
+
+.navbar {
+  height: 50px;
+}
+.carousel-item {
+   height: 700px;
+}
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('imagemain.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.para {
+  font-size: 20px;
+}
+#firstText {
+  padding-top: 15px;
+  margin-left: 50px;
+  display: block;
+  border: 1px blue;
+}
+#contacts {
+  padding-top: 100px;
+  text-align: center;
+}
+#paracontacts {
+text-align: center;
+padding-top: 20px;
+}
