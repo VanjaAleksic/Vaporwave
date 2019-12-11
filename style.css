@@ -1,7 +1,15 @@
 body {
 font-family: 'Tomorrow', sans-serif;
-background: #6b4080;
+background: #302847;
 color: white;
+text-shadow: 1px 1px 15px #000;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+color: grey;
 }
 .navbar-brand
 {
@@ -21,23 +29,20 @@ color: white;
 .navbar {
   height: 50px;
 }
-.carousel-item {
-   height: 700px;
-}
+
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url('imagemain.jpg');
+  background-image: url('imagemain2.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .para {
-  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 #firstText {
   padding-top: 15px;
-  margin-left: 50px;
   display: block;
   border: 1px blue;
 }
