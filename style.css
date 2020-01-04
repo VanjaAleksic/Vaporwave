@@ -29,7 +29,8 @@ color: grey;
   text-align: center;
 }
 .navbar {
-  height: 50px;
+  height: 55px;
+  padding: 0.8rem;
 }
 
 .masthead {
@@ -55,4 +56,18 @@ color: grey;
 #paracontacts {
 text-align: center;
 padding-top: 20px;
+}
+#navbarResponsive {
+  background-color: #343A40;
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 17px;
+  }
+  .fab {
+  font-size: 5px;
+  }
 }
