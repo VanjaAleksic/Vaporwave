@@ -29,14 +29,12 @@ color: grey;
   text-align: center;
 }
 .navbar {
+  height: 50px;
   height: 53px;
   width: 100%;
   padding: 0px;
 }
-#navbarResponsive {
-  background-color: #343A40;
-  width: 100%;
-}
+
 .masthead {
   height: 100vh;
   min-height: 500px;
@@ -45,13 +43,8 @@ color: grey;
   background-position: center;
   background-repeat: no-repeat;
 }
-
-
 .para {
   font-family: 'Roboto', sans-serif;
-}
-footer {
-  background-color: #343A40;
 }
 #firstText {
   padding-top: 15px;
@@ -62,42 +55,25 @@ footer {
   padding-top: 100px;
   text-align: center;
 }
+
+#navbarResponsive {
+  background-color: #343A40;
+  width: 100%;
+}
 #paracontacts {
 text-align: center;
 padding-top: 20px;
 }
 
-
-
-
-@media (max-width: 992px) {
- h1{
-   font-size: 28px;
+@media (min-width: 600px) {
+ h1 {
+   font-size: 1.25 rem;
  }
- p {
-   font-size: 20px;
+
+}
+@media (max-width: 384px) {
+  h1 {
+    font-size: 30px;
+  }
+ 
  }
-}
-
-/* animation */
-span {
-  font: 700 4em/1;
-  letter-spacing: 0;
-  padding: .25em 0 .325em;
-  display: block;
-  margin: 0 auto;
-  text-shadow: 0 0 80px rgba(255,255,255,.5);
-  background: url(animated_text.png) repeat-y;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: aitf 80s linear infinite;
-  transform: translate3d(0,0,0);
-  backface-visibility: hidden;
-
-}
-
-@keyframes aitf {
-0% { background-position: 0% 50%; }
-100% { background-position: 100% 50%; }
-}
