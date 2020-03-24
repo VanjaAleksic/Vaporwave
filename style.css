@@ -36,6 +36,7 @@ color: grey;
 #navbarResponsive {
   background-color: #343A40;
   width: 100%;
+  height: 50px;
 }
 .masthead {
   height: 100vh;
