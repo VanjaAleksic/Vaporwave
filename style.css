@@ -45,10 +45,14 @@ color: grey;
   background-position: center;
   background-repeat: no-repeat;
 }
+
+
 .para {
   font-family: 'Roboto', sans-serif;
 }
-
+footer {
+  background-color: #343A40;
+}
 #firstText {
   padding-top: 15px;
   display: block;
@@ -62,6 +66,10 @@ color: grey;
 text-align: center;
 padding-top: 20px;
 }
+
+
+
+
 @media (max-width: 992px) {
  h1{
    font-size: 28px;
@@ -69,4 +77,27 @@ padding-top: 20px;
  p {
    font-size: 20px;
  }
+}
+
+/* animation */
+span {
+  font: 700 4em/1;
+  letter-spacing: 0;
+  padding: .25em 0 .325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255,255,255,.5);
+  background: url(animated_text.png) repeat-y;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: aitf 80s linear infinite;
+  transform: translate3d(0,0,0);
+  backface-visibility: hidden;
+
+}
+
+@keyframes aitf {
+0% { background-position: 0% 50%; }
+100% { background-position: 100% 50%; }
 }
